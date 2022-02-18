@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CustomVisionFunctions": {
+      "commandName": "Project",
+      "commandLineArgs": "host start",
+      "workingDirectory": "$(TargetDir)",
+      "remoteDebugEnabled": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<form action="http://localhost:8080/add-cart" method="post">
+    <section class="about_section layout_padding">
+        <div class="container  ">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="img-box">
+                        <div class="wrapper">
+                            <div class="file-upload">
+                                <img src=<%=url %> alt=
+                                <%= fruit %> style=" max-width: 100%; max-height: 100%; display: block; ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="detail-box">
+                        <div class="heading_container">
+                            <h2>
+                                <%= fruit %>
+                            </h2>
+                            <input type="number" name="amount">
+                            <a href="">
+                                <input type="submit" value="Add to cart">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</form>

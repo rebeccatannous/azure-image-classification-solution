@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Organum</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/upload.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+    <!-- product section -->
+    <%
+var total = 0%>
+        <section class="product_section layout_padding">
+            <div class="container">
+                <div class="heading_container heading_center">
+                    <h2>
+                        Organic Fruits
+                    </h2>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="images/orange.jpeg" alt="">
+                            </div>
+                            <div class="detail-box">
+
+                                <a href="">
+                Orange x <%= content.Orange %>
+              </a>
+                                <div class="price_box">
+                                    <h6 class="price_heading">
+                                        <span>$</span> 7.00
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="images/lemon.jpeg" alt="">
+                            </div>
+                            <div class="detail-box">
+
+                                <a href="">
+                Lemon x <%= content.Lemon %>
+              </a>
+                                <div class="price_box">
+                                    <h6 class="price_heading">
+                                        <span>$</span> 3.00
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="images/kiwi.jpeg" alt="">
+                            </div>
+                            <div class="detail-box">
+
+                                <a href="">
+                Kiwi x <%= content.Kiwi %>
+              </a>
+                                <div class="price_box">
+                                    <h6 class="price_heading">
+                                        <span>$</span> 5.00
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="images/mango.jpeg" alt="">
+                            </div>
+                            <div class="detail-box">
+
+                                <a href="">
+                Mango x <%= content.Mango %>
+              </a>
+                                <div class="price_box">
+                                    <h6 class="price_heading">
+                                        <span>$</span> 8.00
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="images/banana.jpeg" alt="">
+                            </div>
+                            <div class="detail-box">
+
+                                <a href="">
+                Banana x <%= content.Banana %>
+              </a>
+                                <div class="price_box">
+                                    <h6 class="price_heading">
+                                        <span>$</span> 3.00
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="images/apple.jpeg" alt="">
+                            </div>
+                            <div class="detail-box">
+
+                                <a href="">
+                Apple x <%= content.Apple %>
+              </a>
+                                <div class="price_box">
+                                    <h6 class="price_heading">
+                                        <span>$</span> 4.00
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-box">
+                    <a href="">
+          Total = $<%= content.Orange * 7 + content.Lemon * 3 + content.Kiwi * 5 + content.Mango * 8 + content.Banana * 3 + content.Apple * 4 %>
+        </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- end product section -->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- jQery -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.js"></script>
+        <!-- custom js -->
+        <script src="js/custom.js"></script>
+        <!-- Google Map -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+        <!-- End Google Map -->
+
+</body>
+
+</html>

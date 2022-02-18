@@ -1,0 +1,21 @@
+{
+  "name": "organicum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cosmos": "^3.15.1",
+    "@azure/storage-blob": "^12.8.0",
+    "ejs": "^3.1.6",
+    "express-ejs-layouts": "^2.5.1",
+    "formidable": "^2.0.1",
+    "jade": "^1.11.0",
+    "multer": "^1.4.4"
+  }
+}
